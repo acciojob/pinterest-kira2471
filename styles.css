@@ -1,1 +1,33 @@
 /*  your css code here. If applicable */
+ *{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        .hero{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+            height: 80vh;
+            width: 100vw;
+            background-image: url(https://images.pexels.com/photos/2662116/pexels-photo-2662116.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1);
+            background-size: cover;
+            background-repeat: no-repeat;
+
+
+        }
+        .hero-heading{
+            margin: 5px;
+        }
+        .para{
+            margin: 5px;
+        }
+        #btn{
+            padding: 10px 20px;
+            background-color: red;
+            color: white;
+            border-radius: 4px;
+            border: none;
+            margin: 5px;
+        }
